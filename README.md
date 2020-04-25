@@ -2,7 +2,7 @@
 
 ### [Working Spring-Boot-API](https://github.com/ruppala01/angular-springboot-hellworld-api.git) : https://github.com/ruppala01/angular-springboot-hellworld-api.git
 
-### Branch wise UI Mapping Table
+### Branch wise API Mapping Table
 
 UI-branch-name | Spring-Boot-API-Branch-Name 
 ----------------------------|---------------
