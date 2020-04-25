@@ -2,6 +2,14 @@
 
 ### [Working Spring-Boot-API](https://github.com/ruppala01/angular-springboot-hellworld-api.git) : https://github.com/ruppala01/angular-springboot-hellworld-api.git
 
+### Branch wise UI Mapping Table
+
+UI-branch-name | Spring-Boot-API-Branch-Name 
+----------------------------|---------------
+ 1-crud-ui |  1-crud
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
 ## Development server
