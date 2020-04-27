@@ -1,0 +1,22 @@
+
+<form>
+    <div class="form-group">
+        <label for="id">Employee ID: </label>
+        <input type="empId" [(ngModel)]="employee.empId" class="form-control" id="exampleInputempId" aria-describedby="empIdHelp" placeholder="Enter Employee Id" name="empId"/> 
+       
+      </div>
+    <div class="form-group">
+        <label for="name">Name: </label>
+        <input type="name" [(ngModel)]="employee.name" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter Employee name" name="name">
+      </div>
+    
+    <div class="form-group">
+      <label for="exampleInputDesignation">Designation: </label>
+      <input type="text" [(ngModel)]="employee.designation" class="form-control" id="exampleInputDesignation" placeholder="Designation" name="designation">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputSalary">Salary: </label>
+        <input type="email" [(ngModel)]="employee.salary" class="form-control" id="exampleInputSalary" aria-describedby="salarylHelp" placeholder="Enter salary" name="salary">
+      </div>
+    <button type="submit" (click)="addEmployee(employee)"class="btn btn-primary">Submit</button>
+  </form>

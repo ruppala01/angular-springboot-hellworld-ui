@@ -13,4 +13,12 @@ export class HttpClientService {
     console.log("Test call..")
     return this.http.get<Employee[]>('http://localhost:8080/employees')
   }
+  deleteEmployee(employee):Observable<any>{
+    console.log("")
+    return this.http.delete('http://localhost:8080/employees/'+employee.empId);
+  }
+
+  addEmployee(employee):Observable<any>{
+    return this.http.post('http://localhost:8080/employees',employee);
+  }
 }

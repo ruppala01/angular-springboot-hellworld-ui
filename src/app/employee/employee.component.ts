@@ -21,7 +21,10 @@ export class EmployeeComponent implements OnInit {
   handleSuccessfulResponse(response){
     this.employees=response;
   }
-  handleErrorResponse(error){
-    console.log(error)
+  
+
+  deleteEmployee(employee):void{
+    this.httpClientService.deleteEmployee(employee).subscribe(response=> this.handleSuccessfulResponse(response),)
   }
+  
 }
