@@ -6,6 +6,7 @@ UI-branch-name | Spring-Boot-API-Branch-Name
 ----------------------------|---------------
  1-crud-ui |  1-crud
   1.1-login-ui |  1-crud
+  1.1.1-basicauth-ui | 1.1-basicauth-api 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
